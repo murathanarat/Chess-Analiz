@@ -290,7 +290,7 @@ class Chess_tk():
         ekle.pack(side="top", pady=pady, padx=padx, ipadx=10)
 
 BASE_DIR = dirname(abspath(__file__))
-path = join(BASE_DIR, "data", "games.csv")
+path = join(BASE_DIR, "games.csv")
 
 df = read_csv(path)
 
